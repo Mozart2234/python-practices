@@ -12,7 +12,6 @@ print(a)
 
 # This is a comment
 
-
 print(x + y)
 print(x - y)
 print(x * y)
