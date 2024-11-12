@@ -12,3 +12,16 @@ Mamani
 '''
 print(type(name_3))
 print(name_3)
+
+print(name[0])
+print(name[1])
+print(name[-1])
+
+last_name = "Mamani"
+
+print(name + " " + last_name)
+print(len(name))
+
+print(name.upper())
+print(name.lower())
+print("   alexei   ".strip())
