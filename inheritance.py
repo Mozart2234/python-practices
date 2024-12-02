@@ -60,3 +60,17 @@ motorcycle.stop_engine()
 
 car.start_engine()
 car.stop_engine()
+
+
+class Customer:
+    def __init__(self, name):
+        self.purchased_vehicles = []
+        self.name = name
+
+    def buy_vehicle(self, vehicle: Vehicle):
+        if vehicle.is_available:
+            self.purchased_vehicles.append(vehicle)
+            vehicle.sell()
+            print(f"{self.name} has purchased {vehicle.brand} {vehicle.model}.")
+        else:
+            print(f"{vehicle.brand} {vehicle.model} is not available.")
