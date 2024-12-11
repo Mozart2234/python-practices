@@ -19,7 +19,7 @@ class Persona:
         # Compara si una persona es "menor" que otra en función de la edad
         return self.edad < otra_persona.edad
 
-    def __add__(self, otra_persona)
+    def __add__(self, otra_persona):
         # Sobrecarga el operador + para sumar las edades de dos personas
         return self.edad + otra_persona.edad
 
